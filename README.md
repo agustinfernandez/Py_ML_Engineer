@@ -6,9 +6,9 @@ En la carpeta Script podrán encontrar 2 .py. Por un lado, training.py, que debe
 
 python traning.py ruta/datasetentrenamiento.csv ruta/datasetesteo.csv 
 
-Este script devolverá un modelo ("model.pkl") que se utilizará para hacer las predicciones correspondientes en el script prediction.py.
+Este script guardará un modelo ("model.pkl") que se utilizará para hacer las predicciones correspondientes en el script prediction.py.
 
-Tal y como se solicita, el scritp prediction.py deberá ejecutarse en consola:
+Tal y como se solicita, el scritp prediction.py deberá ejecutarse en consola (Lo ideal sería pasar como parámetro el modelo, pero así no estaba especificado):
 
 python prediction.py ruta/json_file.json
 
